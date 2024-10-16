@@ -11,7 +11,7 @@ async function visualizarInformacoesGlobais() {
     console.log(paragrafo)
 
     const container = document.getElementById('graficos-container')
-    container.appendChild(paragrafo)
+    container.appendChild(paragrafos)
 }
 
 visualizarInformacoesGlobais()
